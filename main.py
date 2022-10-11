@@ -15,6 +15,7 @@ for i in range(len(num2)):
 				count += 1
 			if count == len(num1):
 				printa(True)
+				break
 			else: print(False)
 	else: print(False)
 
